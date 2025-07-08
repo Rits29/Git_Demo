@@ -1,0 +1,74 @@
+{
+  "ActionChains_Methods": [
+    {
+      "method": "click",
+      "description": "Clicks at the current mouse position or on the given element.",
+      "use_case": "Click a button, link, or element that requires hover + click."
+    },
+    {
+      "method": "click_and_hold",
+      "description": "Clicks and holds the left mouse button on an element or current position.",
+      "use_case": "Used for drag-and-drop operations or click-and-hold actions."
+    },
+    {
+      "method": "context_click",
+      "description": "Performs a right-click on the given element or at the current position.",
+      "use_case": "Open context menus (right-click menus)."
+    },
+    {
+      "method": "double_click",
+      "description": "Performs a double-click on the given element or current mouse position.",
+      "use_case": "Double-click to open files, edit text, or trigger double-click JS events."
+    },
+    {
+      "method": "drag_and_drop",
+      "description": "Holds the source element, moves it to the target element, and releases.",
+      "use_case": "Drag one element and drop it onto another."
+    },
+    {
+      "method": "drag_and_drop_by_offset",
+      "description": "Holds the source element, drags it by an (x, y) pixel offset, then releases.",
+      "use_case": "Drag element by a pixel amount instead of dropping on another element."
+    },
+    {
+      "method": "move_to_element",
+      "description": "Moves the mouse to the center of the given element.",
+      "use_case": "Hover over menus, tooltips, or elements that show content on hover."
+    },
+    {
+      "method": "move_by_offset",
+      "description": "Moves the mouse by an (x, y) pixel offset from its current position.",
+      "use_case": "Simulate free mouse movement for custom actions."
+    },
+    {
+      "method": "key_down",
+      "description": "Holds a key down (like SHIFT, CTRL, ALT).",
+      "use_case": "Used with `send_keys` to type uppercase, shortcuts, or combos."
+    },
+    {
+      "method": "key_up",
+      "description": "Releases a held key.",
+      "use_case": "Used after `key_down` to complete keyboard actions."
+    },
+    {
+      "method": "send_keys",
+      "description": "Sends keys to the current focused element.",
+      "use_case": "Simulate typing text or key combos."
+    },
+    {
+      "method": "send_keys_to_element",
+      "description": "Sends keys directly to a given element.",
+      "use_case": "Simulate typing directly into an input, textarea, etc."
+    },
+    {
+      "method": "release",
+      "description": "Releases a held mouse button (usually used after `click_and_hold`).",
+      "use_case": "Finish drag-and-drop or click-and-hold operations."
+    },
+    {
+      "method": "perform",
+      "description": "Executes all queued actions in the chain.",
+      "use_case": "Always call `perform()` at the end to run the actions."
+    }
+  ]
+}
